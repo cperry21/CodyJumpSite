@@ -1,0 +1,155 @@
+/*
+ * filename: animated-animal.css
+ * author: [Your Name Here]
+ * date: today
+ * description: A css file to apply animations to divs and create an animated animal or something
+ */
+
+ @import "../../assets/css/vendors/normalize.css";
+ body {
+     padding: 2rem;
+     margin: 2rem;
+ }
+ 
+ #animatedimal {
+     width: 640px;
+     height: 480px;
+     border: 3px solid #000;
+     position: relative;
+ }
+ 
+ #head {
+     width: 100px;
+     height: 100px;
+     background-color:orange;
+     border-radius: 50px;
+     top: 130px;
+     left: 170px;
+     position: absolute;
+ }
+
+ #eyeL {
+    background-color: black;
+    width: 10px;
+    height: 8px;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 20px;
+    position: relative;
+    top: 31px;
+ }
+
+ #eyeR {
+     background-color: black;
+     width: 10px;
+     height: 8px;
+     position: relative;
+     border-radius: 5px;
+     margin-left: 52px;
+     position: relative;
+     top: 25px;
+}
+
+
+ #nose {
+     background-color: saddlebrown;
+     width: 15px;
+     height: 8px;
+     position: relative;
+     border-radius: 5px;
+     margin-left: 35px;
+     position: relative;
+     top: 25px;
+    
+ }
+
+ #mouth {
+     background-color: black;
+     width: 25px;
+     height: 5px;
+     border-radius: 10px;
+     margin-left: 33px;
+     position: inherit;
+     top: 55px;
+ }
+ 
+ #body {
+     width: 210px;
+     height: 90px;
+     background-color: orange;
+     position: absolute;
+     top: 180px;
+     left: 210px;
+     border-radius: 45px;
+ }
+ 
+ #legFL {
+     width: 20px;
+     height: 120px;
+     background-color: orange;
+     position: absolute;
+     top: 230px;
+     left: 250px;
+     border-radius: 20px;
+ }
+ 
+ #legFR {
+     width: 20px;
+     height: 120px;
+     background-color: orange;
+     position: absolute;
+     top: 220px;
+     left: 220px;
+     border-radius: 20px;
+ }
+ 
+ #legRL {
+     width: 20px;
+     height: 120px;
+     background-color: orange;
+     position: absolute;
+     top: 230px;
+     left: 380px;
+     border-radius: 20px;
+ }
+ 
+ #legRR {
+     width: 20px;
+     height: 120px;
+     background-color: orange;
+     position: absolute;
+     top: 220px;
+     left: 350px;
+     border-radius: 20px;
+ }
+ 
+ #earL {
+     width: 30px;
+     height: 30px;
+     background-color:orange;
+     top: -2px;
+     left: 60px;
+     position: absolute;
+     transform: rotate(-14deg);
+ }
+ 
+ #earR {
+     width: 30px;
+     height: 30px;
+     background-color:orange;
+     top: 0px;
+     left: 9px;
+     position: absolute;
+     transform: rotate(13deg);
+ }
+
+ #tail {
+     width: 20px;
+     height: 160px;
+     position: absolute;
+     background-color: orange;
+     left: 410px;
+     top: 80px;
+     transform: rotate(28deg);
+     border-radius: 20px;
+    }
